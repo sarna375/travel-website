@@ -153,6 +153,7 @@ img{
     border-radius: 5px;
     padding: 5px 10px;
     border: 2px solid grey;
+    background-color: rgb(232, 240, 241);
 }
 .input-1{
     display: flex;
@@ -166,6 +167,31 @@ img{
 }
 .sec-5 img{
     width: 450px;
+}
+.sec-6{
+    background-color: rgb(219, 240, 240);
+    margin: 30px 20px;
+    border-radius: 5px;
+
+}
+.sec-6 h1{
+    text-align: center;
+}
+.sec-6 p{
+    text-align: center;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 330px;
+}
+hr{
+    width: 70%;
 }
 
 
@@ -257,4 +283,22 @@ p{
     display: flex;
     flex-direction: column;
 }
+.input-1 input{
+    width: 50%;
+}
+.input-1 .btn{
+    width: 265px;
+    height: 45px;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
 }
